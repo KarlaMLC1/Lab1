@@ -1,0 +1,228 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"15 C:\Users\karla\OneDrive\Escritorio\PrograEnC.X\Libreria.c
+[v _adc_readValor adc_readValor `(i  1 e 2 0 ]
+"21
+[v _adc_init adc_init `(v  1 e 1 0 ]
+"31
+[v _confi_Botones confi_Botones `(v  1 e 1 0 ]
+"50
+[v _adc_read adc_read `(v  1 e 1 0 ]
+"58
+[v _ConfigDisplay1 ConfigDisplay1 `(v  1 e 1 0 ]
+"100
+[v _ConfigDisplay2 ConfigDisplay2 `(v  1 e 1 0 ]
+"39 C:\Users\karla\OneDrive\Escritorio\PrograEnC.X\main.c
+[v _isr isr `II(v  1 e 1 0 ]
+"69
+[v _main main `(v  1 e 1 0 ]
+"105
+[v _setup setup `(v  1 e 1 0 ]
+"60 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"291
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"353
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S295 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"428
+[u S300 . 1 `S295 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES300  1 e 1 @9 ]
+[s S24 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"483
+[s S33 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S38 . 1 `S24 1 . 1 0 `S33 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES38  1 e 1 @11 ]
+"1239
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+[s S73 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+`uc 1 ADCS 1 0 :2:6 
+]
+"1277
+[s S78 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S87 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S90 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[u S93 . 1 `S73 1 . 1 0 `S78 1 . 1 0 `S87 1 . 1 0 `S90 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES93  1 e 1 @31 ]
+[s S176 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"1367
+[s S183 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S187 . 1 `S176 1 . 1 0 `S183 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES187  1 e 1 @129 ]
+"1417
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1479
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1541
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1603
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1665
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+[s S150 . 1 `uc 1 SCS 1 0 :1:0 
+`uc 1 LTS 1 0 :1:1 
+`uc 1 HTS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+]
+"1883
+[s S156 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S161 . 1 `S150 1 . 1 0 `S156 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES161  1 e 1 @143 ]
+"2417
+[v _IOCB IOCB `VEuc  1 e 1 @150 ]
+"2971
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+[s S203 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"2992
+[u S209 . 1 `S203 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES209  1 e 1 @159 ]
+"3388
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3450
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3592
+[v _ADIF ADIF `VEb  1 e 0 @102 ]
+"4108
+[v _RB0 RB0 `VEb  1 e 0 @48 ]
+"4111
+[v _RB1 RB1 `VEb  1 e 0 @49 ]
+"4327
+[v _T0IF T0IF `VEb  1 e 0 @90 ]
+"37 C:\Users\karla\OneDrive\Escritorio\PrograEnC.X\main.c
+[v _counter counter `i  1 e 2 0 ]
+"69
+[v _main main `(v  1 e 1 0 ]
+{
+"82
+[v main@adc0 adc0 `i  1 a 2 10 ]
+"86
+[v main@digit1 digit1 `i  1 a 2 8 ]
+"88
+[v main@digit2 digit2 `i  1 a 2 6 ]
+"83
+[v main@voltage voltage `i  1 a 2 4 ]
+"103
+} 0
+"105
+[v _setup setup `(v  1 e 1 0 ]
+{
+"145
+} 0
+"31 C:\Users\karla\OneDrive\Escritorio\PrograEnC.X\Libreria.c
+[v _confi_Botones confi_Botones `(v  1 e 1 0 ]
+{
+[v confi_Botones@Botones Botones `i  1 p 2 2 ]
+"48
+} 0
+"15
+[v _adc_readValor adc_readValor `(i  1 e 2 0 ]
+{
+"17
+} 0
+"50
+[v _adc_read adc_read `(v  1 e 1 0 ]
+{
+[v adc_read@Habilitar Habilitar `i  1 p 2 2 ]
+"56
+} 0
+"21
+[v _adc_init adc_init `(v  1 e 1 0 ]
+{
+[v adc_init@channel channel `i  1 p 2 2 ]
+"29
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 2 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 1 ]
+[v ___awdiv@counter counter `uc  1 a 1 0 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+[v ___awdiv@dividend dividend `i  1 p 2 4 ]
+"41
+} 0
+"100 C:\Users\karla\OneDrive\Escritorio\PrograEnC.X\Libreria.c
+[v _ConfigDisplay2 ConfigDisplay2 `(v  1 e 1 0 ]
+{
+"101
+[v ConfigDisplay2@VALOR VALOR `i  1 a 2 4 ]
+"100
+[v ConfigDisplay2@digit2 digit2 `i  1 p 2 2 ]
+"143
+} 0
+"58
+[v _ConfigDisplay1 ConfigDisplay1 `(v  1 e 1 0 ]
+{
+[v ConfigDisplay1@digit1 digit1 `i  1 p 2 2 ]
+"97
+} 0
+"39 C:\Users\karla\OneDrive\Escritorio\PrograEnC.X\main.c
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"66
+} 0
